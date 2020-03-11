@@ -14,5 +14,7 @@ class Dog
     # def breed 
     #     @breed
     # end
+    attr_writer :name 
+    attr_reader :name
 
 end
